@@ -291,7 +291,7 @@ st.set_page_config(
     page_icon='gz_icon.jpeg'
 )
 
-@st.cache
+@st.cache_resource
 def load_data():
     df_locs = ['decals_{}.csv'.format(n) for n in range(4)]
     dfs = [pd.read_csv(df_loc) for df_loc in df_locs]

@@ -2,5 +2,6 @@ numpy
 pandas
 pillow
 matplotlib
+streamlit
 # torch
 # pyro-ppl
